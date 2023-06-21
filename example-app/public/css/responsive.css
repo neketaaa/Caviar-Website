@@ -1,0 +1,204 @@
+@media screen and (max-width: 1200px) {
+    .content {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .name {
+        font-size: 2em;
+    }
+    .order {font-size: 1.2em;}
+    .fa-bars, .fa-solid {
+        font-size: 3em;
+    }
+    .circle {width: 14em; height: 14em;}
+    .circle-text {font-size: 1.6em;}
+    .title {font-size: 3em;}
+    .container {margin: auto}
+    .content-wrap {margin: 0 -16px; width: auto;}
+    .content, .content-img {width: calc(50% - 32px); margin: 0 16px; }
+    .content {font-size: 1.5em;}
+    .content-img {height: auto;}
+    .content-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .content-wrap {height: auto;}
+    .footer-name {
+        font-size: 2em;
+    }
+
+    .about-title {
+        font-size: 1.8em;
+    }
+
+    .about-content {
+        font-size: 1.3em;
+    }
+
+    .tile {
+        overflow: visible;
+    }
+
+    .tile-text {
+        bottom: -5%;
+        background-color: hsla(50.9,46.9%,77.8%, 0.1);
+    }
+
+    .item-photo img{
+        height: 400px;
+        width: 400px;
+    }
+
+    .item-title {
+        font-size: 2.5em;
+    }
+
+    .item-price {
+        font-size: 1.5em;
+    }
+
+    #buttonCountPlus, #buttonCountMinus {
+        font-size: 2em;
+    }
+
+    .is-empty {
+        font-size: 3.5em;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .content-img {
+        display: flex;
+        align-items: center;
+    }
+
+
+    footer {flex-wrap: wrap;}
+    footer .footer-left {order: 2;}
+    footer .footer-right {order: 1; font-size: 1.1em; padding: 0 0 20px;}
+    .footer-name, .footer-sec-name {text-align: center;}
+    .footer-name {font-size: 1.5em;}
+    .footer-sec-name {font-size: 1.2em;}
+    .contact {font-size: 1.2em;}
+    .footer-naming {align-items: start;}
+    .order {
+        font-size: 1em;
+        padding: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.3rem;
+    }
+    .fa-bars, .fa-solid {
+        font-size: 2em;
+    }
+
+    .about-title {
+        font-size: 1.4em;
+    }
+
+    .about-content {
+        font-size: 1.1em;
+    }
+
+    .item-title {
+        font-size: 2em;
+    }
+
+    .item-price {
+        font-size: 1em;
+    }
+
+    #counter-title {
+        font-size: 1em;
+    }
+
+    #buttonCountPlus, #buttonCountMinus {
+        font-size: 1.5em;
+    }
+
+    #buttonCountNumber {
+        font-size: 1.5em;
+    }
+
+    .is-empty {
+        padding-top: 10vh;
+        font-size: 3em;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .circle-text {
+        font-size: 1.4em;}
+    .circle {
+        width: 10em;
+        height: 10em;
+    }
+
+    .content {
+        font-size: 1.2em;
+    }
+
+    .catalog-text-wrap {
+        font-size: 1.5em;
+    }
+
+    .item-container {
+        padding-top: 10vh;
+    }
+
+    .item-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-photo img {
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .first-view {height: auto}
+    .circles-block {display: block; height: auto; padding: 162px 0 67px;}
+    .circle {margin: 0 auto 25px; width: 180px; height: 180px;}
+    .naming h1 {
+        font-size: 1em;
+    }
+    .naming h6 {font-size: 0.5em;}
+    .circle-text {font-size: 20px; line-height: 34px;}
+    .container, .even-block, .uneven-block {height: auto;}
+    .title {font-size: 30px;}
+    .content {font-size: 20px; line-height: 24px; width: auto; margin: 0 0 16px; order: 1;}
+    .content-wrap {margin: 0; flex-wrap: wrap;}
+    .content-img {width: auto; margin: 0; order: 2;}
+    .title-wrap {height: auto; padding: 27px 0 25px;}
+    .catalog-text-wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*font-size: 1.1em;*/
+    }
+
+    .is-empty {
+        font-size: 2.3em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 1.5em;
+    }
+    .catalog-text-wrap {
+        font-size: 1.1em;
+    }
+
+    .is-empty {
+        font-size: 1.5em;
+    }
+}
